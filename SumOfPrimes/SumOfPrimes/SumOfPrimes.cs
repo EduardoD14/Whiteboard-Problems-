@@ -10,7 +10,6 @@ namespace SumOfPrimes
         }
         //Given a number, add all of the prime
         //numbers from 0 to that number, to include given number.
-
         public static bool IsPrime(int Num)
         {
             bool isPrime = true;
