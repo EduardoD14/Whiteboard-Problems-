@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnSumOfDigits", "ReturnSumOfDigits\ReturnSumOfDigits.csproj", "{25C23EBE-EC20-4FF3-A7DF-786C1E062CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnSumOfDigitsTests", "ReturnSumOfDigitsTests\ReturnSumOfDigitsTests.csproj", "{FCEA4217-1862-4A88-AB50-CE3A2EB5253C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C23EBE-EC20-4FF3-A7DF-786C1E062CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C23EBE-EC20-4FF3-A7DF-786C1E062CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C23EBE-EC20-4FF3-A7DF-786C1E062CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C23EBE-EC20-4FF3-A7DF-786C1E062CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEA4217-1862-4A88-AB50-CE3A2EB5253C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEA4217-1862-4A88-AB50-CE3A2EB5253C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEA4217-1862-4A88-AB50-CE3A2EB5253C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEA4217-1862-4A88-AB50-CE3A2EB5253C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D23CB7A9-2705-4468-B9EC-B46D14C394C2}
+	EndGlobalSection
+EndGlobal
