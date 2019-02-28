@@ -11,6 +11,11 @@ namespace CheckValidEmail
         static void Main(string[] args)
         {
             Console.WriteLine(isEmailValid("quatemoc14@aim.com"));
+            Console.WriteLine(isEmailValid("quatemoc14@aimcom"));
+            Console.WriteLine(isEmailValid("quatemoc14@aim..com"));
+            Console.WriteLine(isEmailValid("quatemoc14@.aim.com"));
+            Console.WriteLine(isEmailValid("@aim.com"));
+            Console.WriteLine(isEmailValid("@.o"));
             Console.ReadKey();
         }
       public static bool isEmailValid(string email)
