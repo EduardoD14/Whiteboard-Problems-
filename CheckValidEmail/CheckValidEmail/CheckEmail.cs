@@ -39,6 +39,6 @@ namespace CheckValidEmail
             if (email.EndsWith("."))
                 return false;
             return true;
-        }        
+        }         
     }
 }
