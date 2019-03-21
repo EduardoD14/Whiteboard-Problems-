@@ -32,7 +32,7 @@ namespace ReturnSumOfDigits
                 sum += x % 10;
                 x /= 10;
             }
-            return sum > 9 ? SumDig(sum) : sum;
+            return sum > 9 ? SingleSumDig(sum) : sum;
         }
     }
 }
