@@ -5,7 +5,7 @@ namespace SumOfOdds
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(ReturnSum(6));
+            Console.WriteLine(ReturnSum(13));
             Console.ReadKey();
             
         }

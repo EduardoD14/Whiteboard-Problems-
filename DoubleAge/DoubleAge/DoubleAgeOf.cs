@@ -6,7 +6,9 @@ namespace DoubleAge
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(DoubleAge(24, 4));
+            Console.WriteLine(DoubleAge(40, 1));
+           
+            Console.WriteLine(SonAgeWhenFatherIsDouble(40,1));
             Console.ReadKey();
 
         }
@@ -14,17 +16,25 @@ namespace DoubleAge
         //Given the age of two people, find the age of the second person
         //at which the first person will be twice as old as the second. 
 
-        public static int DoubleAge(int p1, int p2)
+        public static int DoubleAge(int dad, int son)
         {
-            int p2Age = 0;
-            int p1Age = p2 - p1;
-            while (p2Age != p1Age * 2)
+            int sonAge = 0;
+            int dadAge = dad - son;            
+            while (dadAge != sonAge * 2)
             {
-                p1Age++;
-                p2Age++;
+                dadAge++;
+                sonAge++;
             }
-            return p1Age;
+            return sonAge;
 
+        }
+        //simpler answer
+
+        public static int SonAgeWhenFatherIsDouble(int dad,int son)
+        {
+          // int ageofdobule = dad - son;
+          // return son - ageofdobule;
+            return dad - son;
         }
     }
 }

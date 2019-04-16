@@ -5,7 +5,7 @@ namespace SumOfPrimes
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(ReturnSumOfPrimes(9));
+            Console.WriteLine(ReturnSumOfPrimes(200));
             Console.ReadKey();
         }
         //Given a number, add all of the prime
